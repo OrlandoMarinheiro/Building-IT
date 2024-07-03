@@ -6,5 +6,5 @@ This project was developed as part of the Systems Analysis course, with the aim 
 
 User access data on the login page:
 
-* **Email**: martarepolho233@gamil.com 
+* **Email**: martarepolho233@gmail.com
 * **Password**: martinha233
