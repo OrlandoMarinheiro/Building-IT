@@ -2,7 +2,8 @@
 
 This project was developed as part of the Systems Analysis course, with the aim of creating the front-end for a smart building monitoring mobile application.
 
-[**Building-IT APP**](https://marinhas.github.io/Building-IT/)
+# **How to view the website**
+You can see the website [here](https://marinhas.github.io/Building-IT/)
 
 User access data on the login page:
 
