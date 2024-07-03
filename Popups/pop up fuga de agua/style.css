@@ -1,0 +1,87 @@
+.popup-fuga-de-agua {
+  width: 413px;
+  height: 593px;
+}
+
+.popup-fuga-de-agua .overlap {
+  position: relative;
+  height: 592px;
+}
+
+.popup-fuga-de-agua .rectangle {
+  position: absolute;
+  width: 413px;
+  height: 549px;
+  top: 0;
+  left: 0;
+  background-color: #0b0e27;
+  border-radius: 20px;
+}
+
+.popup-fuga-de-agua .text-wrapper {
+  position: absolute;
+  width: 339px;
+  top: 31px;
+  left: 37px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: -0.32px;
+  line-height: 30px;
+}
+
+.popup-fuga-de-agua .div {
+  position: absolute;
+  width: 339px;
+  top: 143px;
+  left: 37px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: -0.32px;
+  line-height: 30px;
+}
+
+.popup-fuga-de-agua .group {
+  position: absolute;
+  width: 348px;
+  height: 54px;
+  top: 474px;
+  left: 34px;
+}
+
+.popup-fuga-de-agua .overlap-group {
+  position: relative;
+  width: 346px;
+  height: 54px;
+  background-image: url(https://c.animaapp.com/N4XcEbSx/img/rectangle-22-1@2x.png);
+  background-size: 100% 100%;
+}
+
+.popup-fuga-de-agua .p {
+  position: absolute;
+  width: 346px;
+  top: 4px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: -0.32px;
+  line-height: 24.5px;
+  white-space: nowrap;
+}
+
+.popup-fuga-de-agua .image {
+  position: absolute;
+  width: 27px;
+  height: 27px;
+  top: 5px;
+  left: 381px;
+  object-fit: cover;
+}

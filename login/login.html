@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="styleguide.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="../JS/scripts.js"></script>
+
+  </head>
+  <body>
+    <div class="login-page">
+      <div class="div">
+        <div class="group">
+          <div class="time">9:41</div>
+          <div class="right-side">
+            <img class="statusbar-battery" src="https://c.animaapp.com/52c5b6Zz/img/-statusbar-battery@2x.png" />
+            <img class="wifi" src="https://c.animaapp.com/52c5b6Zz/img/wifi@2x.png" />
+            <img class="icon-mobile-signal" src="https://c.animaapp.com/52c5b6Zz/img/icon---mobile-signal@2x.png" />
+          </div>
+        </div>
+        <div class="overlap-group">
+          <div class="overlap">
+            <div class="rectangle"></div>
+            <div class="text-wrapper">Login</div>
+            <button id="login-button" class="frame-button" onclick="login()">Sign In</button>
+            <p class="dont-have-an-account" style="cursor: pointer;" onclick="window.location.href = '../RegisterPage/register.html';">
+              Don't have an account yet?<br />Register Here!
+            </p>
+            <div class="email-form-input" style="cursor: pointer;">
+              <label class="text-wrapper-3" for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="Email" required>
+            </div>
+            <div class="password-form-input" style="cursor: pointer;">
+              <label class="text-wrapper-3" for="password">Password</label>
+              <input type="password" id="password" name="password" placeholder="Password" required>
+            </div>
+            <div id="error-message" class="error-message" style="display: none;"></div>
+          </div>
+          <img class="img" src="https://c.animaapp.com/52c5b6Zz/img/frame-9---button-1@2x.png" style="cursor: pointer;" onclick="goBack()"/>
+        </div>
+      </div>
+    </div>
+
+
+  </body>
+</html>

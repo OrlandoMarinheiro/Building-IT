@@ -1,0 +1,13 @@
+:root {
+  --black: rgba(0, 0, 0, 1);
+  --secondary-primary-white: rgba(255, 255, 255, 1);
+  --headline-bold-h4-font-family: "Roboto", Helvetica;
+  --headline-bold-h4-font-weight: 700;
+  --headline-bold-h4-font-size: 28px;
+  --headline-bold-h4-letter-spacing: 0px;
+  --headline-bold-h4-line-height: normal;
+  --headline-bold-h4-font-style: normal;
+  --e-wallet-color-for-smart-home-grey-1: rgba(19, 26, 41, 1);
+  --e-wallet-color-for-smart-home-grey-5: rgba(255, 255, 255, 1);
+  --e-wallet-color-for-smart-home-glassmorphism-glassmorphism: rgba(154, 154, 154, 0.6);
+}

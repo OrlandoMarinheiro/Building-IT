@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="styleguide.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="../JS/scripts.js"></script>
+  </head>
+  <body>
+
+    <div class="overlay" id="overlay"></div>
+
+    <div class="popup-fuga-de-gas">
+      <div class="overlap">
+        <div class="rectangle"></div>
+        <div class="fuga-de-g-s">Fuga de gás <br />resolvida!</div>
+        <p class="text-wrapper">
+          A sua fuga de gás foi resolvida com sucesso no dia 2 de Maio de 2024, 26 minutos após chamar o profissional
+          especializado
+        </p>
+        <div class="group">
+          <div class="overlap-group" style="cursor: pointer;" onclick="fecharPopupFugaDeGas()">
+            <img class="img" src="https://c.animaapp.com/dDX2pQNn/img/rectangle-22-1@2x.png" />
+            <div class="div">Fechar</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="anomalias-resolvidas">
+      <div class="div">
+        <div class="group">
+          <div class="time">9:41</div>
+          <div class="right-side">
+            <img class="statusbar-battery" src="https://c.animaapp.com/Sb3KDmCN/img/-statusbar-battery@2x.png" />
+            <img class="wifi" src="https://c.animaapp.com/Sb3KDmCN/img/wifi@2x.png" />
+            <img class="icon-mobile-signal" src="https://c.animaapp.com/Sb3KDmCN/img/icon---mobile-signal@2x.png" />
+          </div>
+        </div>
+        <div class="overlap">
+          <div class="rectangle"></div>
+          <img class="subtract" src="https://c.animaapp.com/Sb3KDmCN/img/subtract@2x.png" />
+          <div class="group-2">
+            <div class="frame">
+              <img class="img" style="cursor: pointer;" src="https://c.animaapp.com/Sb3KDmCN/img/home---button@2x.png" onclick="window.location.href ='../Homepage/homepage.html';"/>
+              <img class="img" style="cursor: pointer;" onclick="window.location.href ='../suporte/index.html';" src="https://c.animaapp.com/Sb3KDmCN/img/responsive@2x.png" />
+            </div>
+            <div class="frame-2">
+              <img
+                class="notifications-icon"
+                style="cursor: pointer;"
+                src="https://c.animaapp.com/Sb3KDmCN/img/notifications-icon-1791x2048-rk2vz974-1---button@2x.png"
+                onclick="window.location.href ='../Notificacoes/notificacoes.html';"
+              />
+              <img style="cursor: pointer;" class="img" src="https://c.animaapp.com/Sb3KDmCN/img/user---button@2x.png" onclick="window.location.href ='../perfil/perfil.html';"/>
+            </div>
+          </div>
+          <div class="group-button" style="cursor: pointer;" onclick="window.location.href ='../relatorios_de_custos_semanais/relatorios_de_custos_semanais.html';">
+            <div class="overlap-group-wrapper" >
+              <div class="overlap-group"><div class="text-wrapper">Ver relatório de custos</div></div>
+            </div>
+          </div>
+          <div class="ellipse"></div>
+        </div>
+        <div class="text-wrapper-2">Anomalias Resolvidas</div>
+        <img class="frame-button" src="https://c.animaapp.com/Sb3KDmCN/img/frame-9---button-1@2x.png" style="cursor: pointer;" onclick="goBack()"/>
+        <div class="overlap-2" style="cursor: pointer;">
+          <div class="text-wrapper-3">Fuga de gás</div>
+          <img
+            class="check-box"
+            src="https://c.animaapp.com/Sb3KDmCN/img/check-box-24dp-fill0-wght400-grad0-opsz24--1--1@2x.png"
+          />
+          <div class="overlap-wrapper" onclick="mostrarPopupFugaDeGas()">
+            <div class="overlap-group"><div class="text-wrapper-4">Ver detalhes</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

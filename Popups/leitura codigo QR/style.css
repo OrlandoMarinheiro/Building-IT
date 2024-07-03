@@ -1,0 +1,60 @@
+.popup-scan {
+  position: relative;
+  width: 424px;
+  height: 695px;
+  background-image: url(https://c.animaapp.com/mBTA9CBI/img/rectangle-30-1.png);
+  background-size: 100% 100%;
+}
+
+.popup-scan .text-wrapper {
+  position: absolute;
+  width: 357px;
+  top: 17px;
+  left: 30px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: -0.32px;
+  line-height: 35px;
+}
+
+.popup-scan .overlap-group {
+  position: absolute;
+  width: 410px;
+  height: 561px;
+  top: 127px;
+  left: 7px;
+  background-image: url(https://c.animaapp.com/mBTA9CBI/img/qr-code-scan-on-iphone-controlcenter-1-1024x620-1-1.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.popup-scan .m-quina-de-lavar {
+  position: absolute;
+  width: 313px;
+  height: 313px;
+  top: 16px;
+  left: 49px;
+  object-fit: cover;
+}
+
+.popup-scan .ellipse {
+  position: absolute;
+  width: 51px;
+  height: 51px;
+  top: 492px;
+  left: 180px;
+  background-color: #ffffff;
+  border-radius: 25.5px;
+}
+
+.popup-scan .image {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 2px;
+  left: 397px;
+  object-fit: cover;
+}

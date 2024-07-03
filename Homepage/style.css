@@ -1,0 +1,705 @@
+
+
+.home-page {
+  background-color: #03001c;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 100%
+}
+
+.home-page .div {
+  background-color: #03001c;
+  overflow: hidden;
+  width: 430px;
+  height: 932px;
+  position: relative;
+  margin: auto;
+  max-width: 100%
+
+
+}
+
+.home-page .group {
+  position: absolute;
+  width: 386px;
+  height: 20px;
+  top: 11px;
+  left: 23px;
+  max-width: 100%
+  
+}
+
+.home-page .time {
+  position: absolute;
+  width: 54px;
+  top: 0;
+  left: 0;
+  font-family: "SF Pro Text-Semibold", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: -0.32px;
+  line-height: 21px;
+  white-space: nowrap;
+  
+}
+
+.home-page .right-side {
+  position: absolute;
+  width: 77px;
+  height: 13px;
+  top: 3px;
+  left: 307px;
+  
+}
+
+.home-page .statusbar-battery {
+  position: absolute;
+  width: 27px;
+  height: 13px;
+  top: 0;
+  left: 50px;
+
+}
+
+.home-page .wifi {
+  position: absolute;
+  width: 17px;
+  height: 12px;
+  top: 1px;
+  left: 26px;
+}
+
+.home-page .icon-mobile-signal {
+  position: absolute;
+  width: 18px;
+  height: 12px;
+  top: 1px;
+  left: 0;
+}
+
+.home-page .group-2 {
+  position: absolute;
+  width: 395px;
+  height: 60px;
+  top: 59px;
+  left: 20px;
+}
+
+.home-page .group-3 {
+  position: absolute;
+  width: 183px;
+  height: 51px;
+  top: 9px;
+  left: 0;
+}
+
+.home-page .text-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 28px;
+  text-align: center;
+  letter-spacing: -0.32px;
+  line-height: 21px;
+  white-space: nowrap;
+}
+
+.home-page .text-wrapper-2 {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #bdbbbb;
+  font-size: 25px;
+  letter-spacing: -0.32px;
+  line-height: 21px;
+  white-space: nowrap;
+}
+
+.home-page .mask-group {
+  cursor: pointer;
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 0;
+  left: 335px;
+}
+
+.home-page .overlap {
+  position: absolute;
+  width: 741px;
+  height: 748px;
+  top: 446px;
+  left: -118px;
+}
+
+.home-page .rectangle {
+  position: absolute;
+  width: 605px;
+  height: 437px;
+  top: 163px;
+  left: 68px;
+  background-color: #0061fa;
+  transform: rotate(-42.12deg);
+  filter: blur(10px);
+}
+
+.home-page .frame {
+  position: absolute;
+  width: 402px;
+  height: 644px;
+  top: 104px;
+  left: 132px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.home-page .overlap-group {
+  position: relative;
+  width: 400px;
+  height: 974px;
+  left: 4px;
+}
+
+.home-page .garagem {
+  position: absolute;
+  width: 385px;
+  height: 577px;
+  top: 397px;
+  left: 0;
+}
+
+.home-page .overlap-group-2 {
+  cursor: pointer;
+  position: relative;
+  width: 395px;
+  height: 183px;
+  margin-bottom: 20px; /* Adiciona 20 pixels de margem abaixo de cada overlap-group-2 */
+}
+
+.home-page .img {
+  position: absolute;
+  width: 395px;
+  height: 183px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.home-page .text-wrapper-3 {
+  position: absolute;
+  top: 11px;
+  left: 16px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: var(--e-wallet-color-for-smart-home-grey-5);
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 32px;
+  white-space: nowrap;
+}
+
+.home-page .text-wrapper-4 {
+  position: absolute;
+  top: 47px;
+  left: 16px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: var(--e-wallet-color-for-smart-home-grey-5);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.home-page .frame-wrapper {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 4px 8px 4px 4px;
+  position: absolute;
+  top: 138px;
+  left: 16px;
+  background-color: var(--e-wallet-color-for-smart-home-grey-5);
+  border-radius: 6px;
+}
+
+.frame {
+  overflow-y: auto; /* Adiciona uma barra de rolagem vertical quando necessário */
+  height: 300px; /* Defina a altura desejada para o contêiner */
+  scrollbar-width: none; /* Oculta a barra de rolagem em navegadores que suportam */
+  -ms-overflow-style: none; /* Oculta a barra de rolagem no Internet Explorer */
+}
+
+.frame::-webkit-scrollbar {
+  display: none; /* Oculta a barra de rolagem no Chrome, Safari e Opera */
+}
+
+
+.home-page .frame-2 {
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.home-page .temperature-half {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+
+.home-page .text-wrapper-5 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: var(--e-wallet-color-for-smart-home-grey-1);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.home-page .ellipse-wrapper {
+  position: relative;
+  width: 4px;
+  height: 24px;
+}
+
+.home-page .ellipse {
+  position: relative;
+  height: 4px;
+  top: 4px;
+  border-radius: 2px;
+  border: 1px solid;
+  border-color: var(--e-wallet-color-for-smart-home-grey-1);
+}
+
+.home-page .image-wrapper {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 138px;
+  left: 121px;
+  background-color: var(--e-wallet-color-for-smart-home-glassmorphism-glassmorphism);
+  border-radius: 6px;
+}
+
+.home-page .image {
+  position: absolute;
+  width: 24px;
+  height: 22px;
+  top: 5px;
+  left: 4px;
+}
+
+.home-page .img-wrapper {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 138px;
+  left: 81px;
+  background-color: var(--e-wallet-color-for-smart-home-grey-5);
+  border-radius: 6px;
+}
+
+.home-page .image-2 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 4px;
+  left: 4px;
+  object-fit: cover;
+}
+
+.home-page .frame-3 {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 138px;
+  left: 161px;
+  background-color: var(--e-wallet-color-for-smart-home-glassmorphism-glassmorphism);
+  border-radius: 6px;
+}
+
+.home-page .image-3 {
+  position: absolute;
+  width: 24px;
+  height: 17px;
+  top: 8px;
+  left: 4px;
+  object-fit: cover;
+}
+
+.home-page .cozinha {
+  position: absolute;
+  width: 385px;
+  height: 577px;
+  top: 197px;
+  left: 0;
+}
+
+.home-page .sala {
+  position: absolute;
+  width: 400px;
+  height: 642px;
+  top: 0;
+  left: 0;
+}
+
+.home-page .text-wrapper-6 {
+  position: absolute;
+  top: 11px;
+  left: 16px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: var(--e-wallet-color-for-smart-home-grey-5);
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 32px;
+}
+
+.home-page .subtract {
+  position: absolute;
+  width: 430px;
+  height: 134px;
+  top: 352px;
+  left: 118px;
+}
+
+.home-page .group-4 {
+  position: absolute;
+  width: 391px;
+  height: 30px;
+  top: 426px;
+  left: 138px;
+}
+
+.home-page .frame-4 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 62px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.home-page .img-2 {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+
+.home-page .frame-5 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 62px;
+  position: absolute;
+  top: 0;
+  left: 273px;
+}
+
+.home-page .notifications-icon {
+  position: relative;
+  width: 26px;
+  height: 30px;
+  object-fit: cover;
+}
+
+.home-page .loocker-entrada {
+  position: absolute;
+  width: 402px;
+  height: 107px;
+  top: 27px;
+  left: 133px;
+}
+
+.home-page .aberto {
+  position: relative;
+  width: 244px;
+  height: 211px;
+  top: -83px;
+  left: 21px;
+}
+
+.home-page .overlap-group-3 {
+  position: relative;
+  width: 242px;
+  height: 211px;
+}
+
+.home-page .text-wrapper-7 {
+  position: absolute;
+  width: 242px;
+  top: 0;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 30px;
+  letter-spacing: -0.32px;
+  line-height: 21px;
+  z-index: 1;
+}
+
+.home-page .ellipse-2 {
+  position: absolute;
+  width: 16px;
+  height: 17px;
+  top: 4px;
+  left: 130px;
+  background-color: #ff0000;
+  border-radius: 8.23px/8.56px;
+  z-index: 1;
+}
+
+.home-page .loocker-porto {
+  position: absolute;
+  width: 391px;
+  height: 100px;
+  top: 21px;
+  left: 343px;
+}
+
+.home-page .overlap-group-wrapper {
+  position: relative;
+  width: 237px;
+  height: 197px;
+  top: -78px;
+  left: 20px;
+}
+
+.home-page .overlap-group-4 {
+  position: relative;
+  width: 235px;
+  height: 197px;
+}
+
+.home-page .text-wrapper-8 {
+  position: absolute;
+  width: 235px;
+  top: 0;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 30px;
+  letter-spacing: -0.32px;
+  line-height: 21px;
+  z-index: 1;
+}
+
+.home-page .ellipse-3 {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 5px;
+  left: 110px;
+  background-color: #08ff5c;
+  border-radius: 8px;
+  z-index: 1;
+}
+
+.home-page .rectangle-2 {
+  cursor: pointer;
+  position: absolute;
+  width: 73px;
+  height: 85px;
+  top: 0;
+  left: 207px;
+  background-color: #ffffffb2;
+  border-radius: 14px;
+  border: 2px solid;
+  border-color: #ffffff;
+  backdrop-filter: blur(10px) brightness(100%);
+  -webkit-backdrop-filter: blur(10px) brightness(100%);
+}
+
+.home-page .rectangle-3 {
+  cursor: pointer;
+  position: absolute;
+  width: 73px;
+  height: 85px;
+  top: 0;
+  left: 296px;
+  background-color: #ffffffb2;
+  border-radius: 14px;
+  border: 1px solid;
+  border-color: #05050d;
+}
+
+.home-page .rectangle-4 {
+  cursor: pointer;
+  position: absolute;
+  width: 73px;
+  height: 85px;
+  top: 0;
+  left: 385px;
+  background-color: #ffffffb2;
+  border-radius: 14px;
+  border: 2px solid;
+  border-color: #ffffff;
+  backdrop-filter: blur(10px) brightness(100%);
+  -webkit-backdrop-filter: blur(10px) brightness(100%);
+}
+
+.home-page .image-button {
+  cursor: pointer;
+  position: absolute;
+  width: 63px;
+  height: 63px;
+  top: 10px;
+  left: 391px;
+  object-fit: cover;
+}
+
+.home-page .image-button-2 {
+  cursor: pointer;
+  position: absolute;
+  width: 62px;
+  height: 62px;
+  top: 11px;
+  left: 303px;
+  object-fit: cover;
+}
+
+.home-page .image-button-3 {
+  cursor: pointer;
+  position: absolute;
+  width: 68px;
+  height: 68px;
+  top: 8px;
+  left: 209px;
+  object-fit: cover;
+}
+
+.home-page .group-button {
+  position: absolute;
+  width: 193px;
+  height: 234px;
+  top: 193px;
+  left: 20px;
+}
+
+.home-page .overlap-2 {
+  position: relative;
+  width: 191px;
+  height: 234px;
+}
+
+.home-page .rectangle-5 {
+  position: absolute;
+  width: 185px;
+  height: 234px;
+  top: 0;
+  left: 0;
+  border-radius: 23px;
+  border: 2px solid;
+  border-color: #ffffff99;
+  box-shadow: inset 7px 8px 10.3px #00000040;
+  backdrop-filter: blur(10px) brightness(100%);
+  -webkit-backdrop-filter: blur(10px) brightness(100%);
+  background: linear-gradient(180deg, rgba(34, 40, 52, 0.6) 0%, rgba(0, 21, 36, 0.6) 100%);
+}
+
+.home-page .image-4 {
+  position: absolute;
+  width: 117px;
+  height: 176px;
+  top: 10px;
+  left: 74px;
+}
+
+.home-page .text-wrapper-9 {
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: -0.32px;
+  line-height: 18px;
+  white-space: nowrap;
+}
+
+.home-page .overlap-wrapper {
+  position: absolute;
+  width: 187px;
+  height: 234px;
+  top: 193px;
+  left: 225px;
+}
+
+.home-page .overlap-3 {
+  position: relative;
+  width: 185px;
+  height: 234px;
+  border-radius: 23px;
+  border: 2px solid;
+  border-color: #ffffff99;
+  box-shadow: inset 7px 8px 10.3px #00000040;
+  backdrop-filter: blur(10px) brightness(100%);
+  -webkit-backdrop-filter: blur(10px) brightness(100%);
+  background: linear-gradient(180deg, rgba(34, 40, 52, 0.6) 0%, rgba(0, 21, 36, 0.6) 100%);
+}
+
+.home-page .text-wrapper-10 {
+  position: absolute;
+  top: 15px;
+  left: 6px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: -0.32px;
+  line-height: 24.5px;
+  white-space: nowrap;
+}
+
+.home-page .gate {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  top: 6px;
+  left: 82px;
+  object-fit: cover;
+}
+
+.home-page .group-5 {
+  position: absolute;
+  width: 276px;
+  height: 21px;
+  top: 146px;
+  left: 20px;
+}
+
+.home-page .wi-fi {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: 236px;
+  object-fit: cover;
+}
+
+.home-page .ellipse-4 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 5px;
+  left: 264px;
+  background-color: #08ff5c;
+  border-radius: 5px;
+}

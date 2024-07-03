@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="globals.css" />
+  <link rel="stylesheet" href="styleguide.css" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="../JS/scripts.js"></script>
+</head>
+<body>
+
+<!-- Overlay -->
+<div class="overlay" id="overlay"></div>
+
+<div class="popup-fuga-de-agua">
+  <div class="overlap">
+    <div class="rectangle"></div>
+    <div class="text-wrapper">Fuga de água encontrada!</div>
+    <p class="div">
+      Foi detetada uma fuga na sua habitação. Um profissional foi contactado e está a tratar do assunto prontamente.
+      Será notificado(a) assim que o problema estiver resolvido. Até lá, o abastecimento de água na sua residência
+      estará cortado.
+    </p>
+    <div class="group" style="cursor: pointer;" onclick="notificarAdmin()">
+      <div class="overlap-group"><p class="p">Notificar administrador para mais detalhes</p></div>
+    </div>
+    <img class="image" style="cursor: pointer;" src="https://c.animaapp.com/N4XcEbSx/img/image-18-1@2x.png" onclick="fecharPopupFugaDeAgua()"/>
+  </div>
+</div>
+
+<div class="component">
+  <img class="image" src="https://c.animaapp.com/JdkiCoy9/img/image-17-1@2x.png" />
+  <p class="text-wrapper">Administrador notificado com sucesso! Brevemente receberá todos os detalhes.</p>
+</div>
+
+<div class="popup-conclus">
+  <div class="overlap-group">
+    <img class="image" src="https://c.animaapp.com/omtN9vzJ/img/image-17-1@2x.png" />
+    <div class="chave-enviada-com">Problema corrigido com sucesso!</div>
+  </div>
+</div>
+
+
+
+<div class="notificacions-page">
+  <div class="div">
+    <div class="group">
+      <div class="time">9:41</div>
+      <div class="right-side">
+        <img class="statusbar-battery" src="https://c.animaapp.com/y3u0vG1s/img/-statusbar-battery@2x.png" />
+        <img class="wifi" src="https://c.animaapp.com/y3u0vG1s/img/wifi@2x.png" />
+        <img class="icon-mobile-signal" src="https://c.animaapp.com/y3u0vG1s/img/icon---mobile-signal@2x.png" />
+      </div>
+    </div>
+    <div class="overlap">
+      <div class="overlap-group">
+        <div class="rectangle"></div>
+        <img class="subtract" src="https://c.animaapp.com/y3u0vG1s/img/subtract@2x.png" />
+        <div class="ellipse"></div>
+        <div class="group-2">
+          <div class="frame">
+            <img class="img" style="cursor: pointer;" src="https://c.animaapp.com/y3u0vG1s/img/home---button@2x.png" onclick="window.location.href ='../Homepage/homepage.html';"/>
+            <img class="img" style="cursor: pointer;" onclick="window.location.href ='../suporte/index.html';" src="https://c.animaapp.com/y3u0vG1s/img/responsive@2x.png" />
+          </div>
+          <div class="frame-2">
+            <img
+              class="notifications-icon" 
+              src="https://c.animaapp.com/y3u0vG1s/img/notifications-icon-1791x2048-rk2vz974-1---button@2x.png"
+            />
+            <img style="cursor: pointer;" class="img" src="https://c.animaapp.com/y3u0vG1s/img/user---button@2x.png" onclick="window.location.href ='../perfil/perfil.html';"/>
+          </div>
+        </div>
+        <img class="rectangle-2" src="https://c.animaapp.com/y3u0vG1s/img/rectangle-22@2x.png" />
+        <div class="group-button" style="cursor: pointer;" onclick="window.location.href ='../relatorios_de_custos_semanais/relatorios_de_custos_semanais.html';">
+          <div class="div-wrapper"><div class="text-wrapper">Consultar relatório de custos</div></div>
+        </div>
+        <p class="p">O seu consumo de luz aumentou em relação ao último mês!</p>
+      </div>
+      <div class="overlap-2">
+        <div class="overlap-wrapper" style="cursor: pointer;" onclick="mostrarPopupConclus()">
+          <div class="div-wrapper"><div class="text-wrapper-2">Corrigir problemas</div></div>
+        </div>
+        <p class="text-wrapper-3">Tem uma luz ligada à mais de 24 horas!</p> 
+
+      </div>
+
+    </div>
+    <div class="text-wrapper-4">Notificações</div>
+    <img class="frame-3" src="https://c.animaapp.com/y3u0vG1s/img/frame-9@2x.png" style="cursor: pointer;" onclick="goBack()"/>
+    <div class="overlap-3">
+      <div class="overlap-group-wrapper" style="cursor: pointer;" onclick="mostrarPopupFugaDeAgua()">
+        <div class="overlap-group-2"><div class="text-wrapper-5">Ver detalhes</div></div>
+      </div>
+      <div class="overlap-4">
+        <p class="text-wrapper-6">Foi encontrada uma fuga de água!</p>
+        <img class="pngwing" src="https://c.animaapp.com/y3u0vG1s/img/pngwing-1@2x.png" />
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

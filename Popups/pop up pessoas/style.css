@@ -1,0 +1,137 @@
+.popup-escolher {
+  width: 465px;
+  height: 179px;
+}
+
+.popup-escolher .overlap-group {
+  position: relative;
+  width: 467px;
+  height: 218px;
+  top: -39px;
+  left: 17px;
+}
+
+.popup-escolher .rectangle {
+  position: absolute;
+  width: 432px;
+  height: 218px;
+  top: 0;
+  left: 0;
+  background-color: #090c27;
+  border-radius: 19px;
+}
+
+.popup-escolher .perfil {
+  position: absolute;
+  width: 121px;
+  height: 106px;
+  top: 74px;
+  left: 20px;
+}
+
+.popup-escolher .ellipse {
+  position: absolute;
+  width: 77px;
+  height: 77px;
+  top: 0;
+  left: 2px;
+  object-fit: cover;
+}
+
+.popup-escolher .text-wrapper {
+  position: absolute;
+  width: 119px;
+  top: 83px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: -0.32px;
+  line-height: 24.5px;
+  white-space: nowrap;
+}
+
+.popup-escolher .div {
+  width: 132px;
+  left: 123px;
+  position: absolute;
+  height: 106px;
+  top: 76px;
+}
+
+.popup-escolher .img {
+  position: absolute;
+  width: 77px;
+  height: 77px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.popup-escolher .text-wrapper-2 {
+  position: absolute;
+  width: 119px;
+  top: 83px;
+  left: 11px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: -0.32px;
+  line-height: 24.5px;
+  white-space: nowrap;
+}
+
+.popup-escolher .perfil-2 {
+  width: 127px;
+  left: 227px;
+  position: absolute;
+  height: 106px;
+  top: 76px;
+}
+
+.popup-escolher .text-wrapper-3 {
+  position: absolute;
+  width: 119px;
+  top: 83px;
+  left: 6px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: -0.32px;
+  line-height: 24.5px;
+  white-space: nowrap;
+}
+
+.popup-escolher .perfil-3 {
+  width: 138px;
+  left: 329px;
+  position: absolute;
+  height: 106px;
+  top: 76px;
+}
+
+.popup-escolher .text-wrapper-4 {
+  position: absolute;
+  width: 119px;
+  top: 83px;
+  left: 17px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: -0.32px;
+  line-height: 24.5px;
+  white-space: nowrap;
+}
+
+.popup-escolher .image {
+  position: absolute;
+  width: 27px;
+  height: 27px;
+  top: 12px;
+  left: 385px;
+  object-fit: cover;
+}

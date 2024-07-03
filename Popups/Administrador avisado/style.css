@@ -1,0 +1,30 @@
+.component {
+  position: relative;
+  width: 312px;
+  height: 318px;
+  background-color: #0d122c;
+  border-radius: 17px;
+}
+
+.component .image {
+  position: absolute;
+  width: 98px;
+  height: 118px;
+  top: 23px;
+  left: 107px;
+  object-fit: cover;
+}
+
+.component .text-wrapper {
+  position: absolute;
+  width: 288px;
+  top: 158px;
+  left: 12px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: -0.32px;
+  line-height: 31px;
+}
